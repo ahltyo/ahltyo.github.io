@@ -16,6 +16,13 @@ body{
   font-size: 96px;
   font-family: 'Fira Mono', monospace;
   letter-spacing: -7px;
+  flex-wrap: wrap;
+}
+p{
+  font: normal 100 18px Lato, sans-serif;
+  text-align: center;
+  letter-spacing: normal;
+  width: 100vw;
 }
 
 div{
