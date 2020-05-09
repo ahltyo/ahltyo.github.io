@@ -24,9 +24,11 @@ blockquote{
     border-radius: 2px;
     padding: 1vh 1vw 1vh 1vw;
 }
-blockquote p{
-    margin: 1vh 0 1vh 0;
-}
 blockquote p:nth-last-child(1){
     text-align: right;
+}
+
+
+article p{
+    margin: 1vh 0 1vh 0;;
 }
