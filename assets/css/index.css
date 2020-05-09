@@ -1,0 +1,32 @@
+header{
+    height: 100vh;
+    background-color: #01050C;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+header h2{
+    margin: 0 15vw 5vh 15vw;
+    font-weight: 200;
+}
+header figure img{
+    width: 100%;
+    height: auto;
+}
+
+article div{
+    margin: 5vh 5vw 5vh 5vw;
+}
+
+blockquote{
+    border: 0.1px solid rgba(180, 179, 180, 0.452);
+    border-radius: 2px;
+    padding: 1vh 1vw 1vh 1vw;
+}
+blockquote p{
+    margin: 1vh 0 1vh 0;
+}
+blockquote p:nth-last-child(1){
+    text-align: right;
+}
